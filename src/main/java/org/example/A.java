@@ -12,5 +12,6 @@ public class A {
   public void printDeps() {
     System.out.println("I'm A and I'm calling B");
     b.printInfo();
+    b.printDiff();
   }
 }

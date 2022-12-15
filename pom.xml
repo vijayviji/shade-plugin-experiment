@@ -18,6 +18,7 @@
     <maven.compiler.target>11</maven.compiler.target>
 
     <guice.version>5.1.0</guice.version>
+    <apache.commons.version>1.10.0</apache.commons.version>
 
     <maven-dependency-plugin.version>3.4.0</maven-dependency-plugin.version>
     <maven-shade-plugin.version>3.4.1</maven-shade-plugin.version>
@@ -28,6 +29,12 @@
       <groupId>com.google.inject</groupId>
       <artifactId>guice</artifactId>
       <version>${guice.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-text</artifactId>
+      <version>${apache.commons.version}</version>
     </dependency>
   </dependencies>
 
